@@ -1,0 +1,25 @@
+.veg-img {
+  height: 200px;       /* same height for all images */
+  object-fit: cover;   /* crop to fit */
+  padding-top: 10px;   /* spacing */
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body h5 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.btn-success {
+  border-radius: 20px;
+  padding: 5px 15px;
+}

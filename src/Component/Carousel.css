@@ -1,0 +1,5 @@
+.carousel-img {
+  height: 400px;      /* fixed height for all images */
+  object-fit: cover;  /* crops image nicely */
+  padding-top: 30px;  /* top spacing */
+}
